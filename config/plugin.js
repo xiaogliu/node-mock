@@ -6,4 +6,13 @@ module.exports = {
   // static: {
   //   enable: true,
   // }
+  cors: {
+    enable: true,
+    package: 'egg-cors',
+  },
 };
+
+// exports.cors = {
+//   enable: true,
+//   package: 'egg-cors',
+// };
