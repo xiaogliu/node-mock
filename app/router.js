@@ -9,5 +9,5 @@ module.exports = app => {
   router.get('/', controller.home.index);
   router.get('/test', controller.home.test);
   router.get('/list', controller.list.index);
-  router.get('/detail', controller.detail.index);
+  router.get('/b2c-content/content-api/api/content/detail', controller.detail.index);
 };
